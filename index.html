@@ -1,1 +1,104 @@
-this is a test for qatiger.github.io
+﻿<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>QATiger, 测试+录屏=创新的测试伴侣</title>
+    <meta name="keywords" content="capture, screen capture, free screen capture, take screenshot, image capture, picpick, freeware, screenshot, screen grab, auto-capture, dual monitor capture, auto-scroll, portable software, graphic tools, color picker, pixel ruler">
+    <meta name="description" content="PicPick screen capture software enable you to grab an image on your computer screen, save, print, add effects, and share.">
+
+    <!--Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">  
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->  
+  </head>
+  <body class="margin-top-50" ng-app="uumaiApp">
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/picpick?lang=zh-cn"><img alt="Brand" src="images/brand_s.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="active" id="mainBig"><a href="#/">QATiger</a></li>
+		  	<li class="" id="iostiger"><a href="#/iostiger">iOSTiger</a></li>
+			<li class="" id="androidtiger"><a href="#/androidtiger">AndroidTiger</a></li>
+            <!--
+			<li class="" id="partners"><a href="#/partners">QATiger测试社区</a></li>
+			-->
+            <li class="" id="contact"><a href="#/contact">联系我们</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<div class="container-fluid bg-gray bg-border-bottom margin-xs hidden-xs " id="nagShow">
+      <div class="container">
+        <ul class="nav nav-pills">
+          <li class="active" id="main"><a href="#/">概述</a></li>
+          <li class="" id="features"><a href="#/help">使用文档</a></li>
+          <li class="" id="download"><a href="#/download">下载</a></li>
+          <li class="" id="buy"><a href="#/buy">现在购买</a></li>
+        </ul>
+      </div>
+    </div> 
+<!--
+	<div class="container-fluid bg-gray bg-border-bottom margin-xs hidden-xs ">
+      <div class="container">
+        <ul class="nav nav-pills">
+          <li class="active" id="main"><a href="#/">概述</a></li>
+          <li class="" id="features"><a href="#/features">特色</a></li>
+          <li class="" id="download"><a href="#/download">下载</a></li>
+          <li class="" id="buy"><a href="#/buy">现在购买</a></li>
+		  	<li class="" id="iosTiger"><a href="#/iostiger">关于iOSTiger</a></li>
+			<li class="" id="androidTiger"><a href="#/androidtiger">关于AndroidTiger</a></li>
+        </ul>
+      </div>
+    </div>    
+    -->
+	<div ng-view></div>	
+    <div class="container-fluid bg-lightgray margin-md">   
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <p>版权所有© 2016 <span class="color-ng">QATiger</span>, 保留所有权利.</p>
+            <p><a href="">最终用户许可协议 | 隐私政策</a></p>
+            <p class="hide"> <strong></strong></p>
+          </div>        
+		  <!--
+		  
+          <div class="col-sm-4">
+            <div class="text-right margin-top-10">
+              <a href="mailto:contact@picpick.org" target="blank"><i class="fa fa-2x fa-envelope margin-right-10"></i></a>
+              <a href="https://www.facebook.com/picpick.org" target="blank"><i class="fa fa-2x fa-facebook-official margin-right-10"></i></a>
+              <a href="https://twitter.com/picpick_org" target="blank"><i class="fa fa-2x fa-twitter"></i></a>
+            </div>
+			-->
+          </div>
+        </div>
+      </div>
+    </div>    
+    <script src="js/jquery.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+    <script src="js/lightbox.min.js"></script>
+	<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>
+  
+</body></html>

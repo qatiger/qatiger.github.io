@@ -1,0 +1,241 @@
+body {
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  background-color: #f8f8f8; 
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand img {
+  max-width:50%;
+}
+
+.nav-pills > li > a {
+  color:#888;
+}
+
+.nav-pills > li > a:hover {
+  color:#0067b0;
+  background-color:#dddddd;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color:white;
+    background-color:#f4811f;
+}
+
+.bg-gray {
+  background-color: #eeeeee;
+}
+.bg-lightgray {
+  background-color: #f8f8f8;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-darkgray {
+  background-color: #666666;
+}
+
+.color-ng {
+  color:#ff7200;
+}
+.color-win {
+  color:#888;
+}
+.color-red {
+  color:#ff3c00;
+}
+.color-green {
+  color:#5cb85c;
+}
+
+.bg-border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+.bg-border-bottom-dotted {
+  border-bottom: 1px dotted #ccc;
+}
+
+.margin-lg {
+  padding: 50px 0 50px 0px;
+}
+.margin-md {
+  padding: 40px 0 40px 0px;
+}
+.margin-sm {
+  padding: 20px 0 20px 0px; 
+}
+.margin-xs {
+  padding: 10px 0 10px 0px;  
+}
+.margin-none {
+  padding: 0 0 0 0; margin: 0 0 0 0;
+}
+.margin-top-3 {
+  margin-top:3px;
+}
+.margin-top-5 {
+  margin-top:5px;
+}
+.margin-top-10 {
+  margin-top:10px;
+}
+.margin-top-30 {
+  margin-top:30px;
+}
+.margin-top-50 {
+  margin-top:50px;
+}
+.margin-top-100 {
+  margin-top:100px;
+}
+.margin-left-10 {
+  margin-left:10px;
+}
+.margin-left-30 {
+  margin-left:30px;
+}
+.margin-right-5 {
+  margin-right:5px; 
+}
+.margin-right-10 {
+  margin-right:10px; 
+}
+.margin-bottom-20 {
+  margin-bottom:20px;
+}
+.margin-bottom-30 {
+  margin-bottom:30px;
+}
+.margin-bottom-50 {
+  margin-bottom:50px;
+}
+
+.hero-unit h1 {
+  font-family:"Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;font-weight: 300; color:#555;
+  line-height:40px;
+  margin-top:0px;
+  padding-bottom:0px;
+}
+.hero-unit h2 {
+  font-family:"Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif; font-weight: 300;
+  line-height:35px;
+  margin-bottom:20px; 
+}
+.hero-unit .available {
+  font-style:italic;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.hero-unit .icon {
+    max-width:32px;
+    height:auto;
+    padding-bottom:5px;
+}
+
+
+.section-title {
+  font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif; font-weight: 300;
+  text-align:center;
+  margin-top : 0px;
+  margin-bottom : 40px;  
+}
+.section-title.white {
+  color:#fff;
+}
+
+
+
+
+
+.feature-list {
+  min-height: 150px;
+}
+.feature-list h3 {
+  margin-top: 0px;
+  margin-bottom:10px;
+}
+.feature-list img {
+  margin-right:10px;
+}
+.feature-list p {
+  margin-bottom:20px;
+}
+
+.features img {
+  margin-right:10px;
+}
+.features h2 {
+  font-size:20px;
+  color:#555;
+  margin-top:0px;
+}
+.features h3 {
+  font-size:18px;
+  color:#333;
+  margin-left:20px;
+  font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif; font-weight: 300;
+}
+
+.download h2 {
+  font-size:20px;
+  color:#444;
+  margin-bottom:20px;
+}
+
+
+.download-table {
+  min-height:100px;
+}
+.download-table h2 {
+  color:#666;
+  font-family:Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; font-weight: 300;
+}
+.download-table .free {
+  margin-top:20px;
+}
+.download-table .price {
+  font-size:24px;
+  color:#666;
+  font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif; font-weight: 400;
+}
+
+
+
+.review p {
+  font-style:italic;
+}
+.review h3 {
+  padding: 10px 0 0 0; margin: 0 0 0 0;
+}
+
+.flag {
+  margin:0 0 3px 10px;
+}
+
